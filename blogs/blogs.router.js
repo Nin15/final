@@ -36,7 +36,7 @@ blogRouter.get("/", async (req, res) => {
 /**
  * @swagger
  * /blogs/:
- *   blog:
+ *   post:   // <-- changed from blog to post
  *     summary: Create a new blog
  *     tags: [blogs]
  *     security:
@@ -209,7 +209,7 @@ blogRouter.put("/:id", upload.single("avatar"), async (req, res) => {
 /**
  * @swagger
  * /blogs/{id}/reactions:
- *   blog:
+ *   post:   // <-- changed from blog to post
  *     summary: Add or remove a reaction (like/dislike) to a blog
  *     tags: [blogs]
  *     security:

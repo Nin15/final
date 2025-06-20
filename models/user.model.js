@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
     require: true,
     select: false, //! never take the pass
   },
-  posts: {
+  blogs: {
     type: [mongoose.Schema.Types.ObjectId],
     ref: "post",
     default: [],

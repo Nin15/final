@@ -16,5 +16,5 @@ module.exports = {
       },
     },
   },
-  apis: ["./auth/*.js", "./users/*.js", "./posts/*.js", "./main.js"],
+  apis: ["./auth/*.js", "./users/*.js", "./blogs/*.js", "./main.js"],
 };
